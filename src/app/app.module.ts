@@ -6,6 +6,7 @@ import { StylingComponent } from './styling/styling.component';
 import { Styling1Component } from './styling1/styling1.component';
 import { BindingModule } from './binding/binding.module';
 import { IfElseComponent } from './if-else/if-else.component';
+import { SwitcCaseComponent } from './switc-case/switc-case.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { IfElseComponent } from './if-else/if-else.component';
     StylingComponent,
     Styling1Component,
     IfElseComponent,
+    SwitcCaseComponent,
    
   ],
   imports: [
