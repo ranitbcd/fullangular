@@ -1,0 +1,32 @@
+<!-- make another module and export to appmodule -->
+
+<p>login works!</p>
+<!-- function binding using fuction calling -->
+<button (click)="login('ranit')">Login</button>
+<button (click)="getData('hello')">Call function</button>
+<br>
+<br>
+<!-- function calling -->
+<input type="text" #box (keyup)="getData(box.value)"  placeholder="event keyup"/><br>
+<input type="text" #box1 (keydown)="getData(box1.value)"  placeholder="event keydown"/><br>
+<input type="text" #box2 (blur)="getData(box2.value)"  placeholder="event blur"/><br>
+<input type="text" #box3 (input)="getData(box3.value)"  placeholder="event input"/>
+
+<!-- get input box value and display -->
+<br>
+<br>
+<label>Enter your  name</label>
+<input type="text" #box4  placeholder="enter your name" name="name">
+<button (click)="getValue(box4.value)">click me</button>
+<p>
+    box valu is : {{display}}
+</p>
+
+<br>
+<br>
+<!-- counter in angular -->
+<button (click)="counter('add')">++</button>
+<P>COUNT :{{count}}</P>
+<button (click)="counter('minus')">--</button>
+<br>
+<br>

@@ -1,14 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { UserAuthModule } from './user-auth/user-auth.module';
 import { AppComponent } from './app.component';
+import { StylingComponent } from './styling/styling.component';
+import { Styling1Component } from './styling1/styling1.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StylingComponent,
+    Styling1Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    UserAuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
