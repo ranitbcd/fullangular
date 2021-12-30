@@ -5,11 +5,15 @@ import { AppComponent } from './app.component';
 import { StylingComponent } from './styling/styling.component';
 import { Styling1Component } from './styling1/styling1.component';
 import { BindingModule } from './binding/binding.module';
+import { IfElseComponent } from './if-else/if-else.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     StylingComponent,
-    Styling1Component
+    Styling1Component,
+    IfElseComponent,
+   
   ],
   imports: [
     BrowserModule,

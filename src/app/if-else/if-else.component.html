@@ -1,0 +1,24 @@
+<p>if-else works!</p>
+<h1 *ngIf="show; then ifblock else elseBlock">
+   
+</h1>
+<ng-template #ifblock>
+    <h1>if condition</h1>
+</ng-template>
+<ng-template #elseBlock>
+    <h1>Else Condition</h1>
+</ng-template>
+
+
+<br>
+<br>
+
+<h1 *ngIf="data=='yes'; then ifblock else elseBlock">
+   
+</h1>
+<ng-template #ifblock>
+    <h1>if condition</h1>
+</ng-template>
+<ng-template #elseBlock>
+    <h1>Else Condition</h1>
+</ng-template>
