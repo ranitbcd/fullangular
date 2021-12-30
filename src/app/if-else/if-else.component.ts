@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class IfElseComponent implements OnInit {
   show:boolean=true
   data:string="ranit"
+  color:string="blue"
   constructor() { }
 
   ngOnInit(): void {

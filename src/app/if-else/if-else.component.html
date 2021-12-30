@@ -1,24 +1,32 @@
 <p>if-else works!</p>
-<h1 *ngIf="show; then ifblock else elseBlock">
-   
-</h1>
+<h1 *ngIf="show; then ifblock; else elseBlock"></h1>
 <ng-template #ifblock>
-    <h1>if condition</h1>
+  <h1>if condition</h1>
 </ng-template>
 <ng-template #elseBlock>
-    <h1>Else Condition</h1>
+  <h1>Else Condition</h1>
 </ng-template>
 
+<br />
+<br />
 
-<br>
-<br>
-
-<h1 *ngIf="data=='yes'; then ifblock else elseBlock">
-   
-</h1>
+<h1 *ngIf="data == 'yes'; then ifblock; else elseBlock"></h1>
 <ng-template #ifblock>
-    <h1>if condition</h1>
+  <h1>if condition</h1>
 </ng-template>
 <ng-template #elseBlock>
-    <h1>Else Condition</h1>
+  <h1>Else Condition</h1>
+</ng-template>
+
+<br />
+<br />
+<!-- else-if part -->
+<ng-template [ngIf]="color === 'red'">
+  <h1 style="color: red">Red Color</h1>
+</ng-template>
+<ng-template [ngIf]="color === 'green'">
+  <h1 style="color: green">Green Color</h1>
+</ng-template>
+<ng-template [ngIf]="color === 'blue'">
+  <h1 style="color: blue">Blue Color</h1>
 </ng-template>
