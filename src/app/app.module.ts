@@ -10,6 +10,8 @@ import { SwitcCaseComponent } from './switc-case/switc-case.component';
 import { ForLoopComponent } from './for-loop/for-loop.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { HeaderComponent } from './header/header.component';
+import { FormsModule } from '@angular/forms';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,15 @@ import { HeaderComponent } from './header/header.component';
     ForLoopComponent,
     StyleBindingComponent,
     HeaderComponent,
+    FormsComponent
+   
    
   ],
   imports: [
     BrowserModule,
     UserAuthModule,
-    BindingModule
+    BindingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
