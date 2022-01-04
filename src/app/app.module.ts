@@ -7,6 +7,8 @@ import { Styling1Component } from './styling1/styling1.component';
 import { BindingModule } from './binding/binding.module';
 import { IfElseComponent } from './if-else/if-else.component';
 import { SwitcCaseComponent } from './switc-case/switc-case.component';
+import { ForLoopComponent } from './for-loop/for-loop.component';
+import { StyleBindingComponent } from './style-binding/style-binding.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { SwitcCaseComponent } from './switc-case/switc-case.component';
     Styling1Component,
     IfElseComponent,
     SwitcCaseComponent,
+    ForLoopComponent,
+    StyleBindingComponent,
    
   ],
   imports: [
