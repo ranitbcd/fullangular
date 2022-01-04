@@ -12,6 +12,7 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { HeaderComponent } from './header/header.component';
 import { FormsModule } from '@angular/forms';
 import { FormsComponent } from './forms/forms.component';
+import { ToggleComponent } from './toggle/toggle.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FormsComponent } from './forms/forms.component';
     ForLoopComponent,
     StyleBindingComponent,
     HeaderComponent,
-    FormsComponent
+    FormsComponent,
+    ToggleComponent
    
    
   ],
