@@ -13,6 +13,7 @@ import { HeaderComponent } from './header/header.component';
 import { FormsModule } from '@angular/forms';
 import { FormsComponent } from './forms/forms.component';
 import { ToggleComponent } from './toggle/toggle.component';
+import { TodoComponent } from './todo/todo.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ToggleComponent } from './toggle/toggle.component';
     StyleBindingComponent,
     HeaderComponent,
     FormsComponent,
-    ToggleComponent
+    ToggleComponent,
+    TodoComponent
    
    
   ],

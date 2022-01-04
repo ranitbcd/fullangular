@@ -1,0 +1,12 @@
+<p>todo works!</p>
+<label>Enter your todo</label><br><br>
+
+<input type="text" placeholder="Enter your neww task" #task>
+<br>
+<br>
+<button (click)="addTask(task.value)">Add task</button>
+<br>
+<br>
+<ul *ngFor="let data of list">
+<li>{{data.name}}<button (click)="removeTask(data.id)" >Delete</button></li>
+</ul>
