@@ -9,6 +9,7 @@ import { IfElseComponent } from './if-else/if-else.component';
 import { SwitcCaseComponent } from './switc-case/switc-case.component';
 import { ForLoopComponent } from './for-loop/for-loop.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
     SwitcCaseComponent,
     ForLoopComponent,
     StyleBindingComponent,
+    HeaderComponent,
    
   ],
   imports: [
