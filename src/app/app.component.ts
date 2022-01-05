@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog';
-  data = 'hii hello';
+  data = 10;
+  updateChild(){
+    this.data= Math.floor(Math.random()*10)
+  }
 }
