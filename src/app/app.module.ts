@@ -15,6 +15,8 @@ import { FormsComponent } from './forms/forms.component';
 import { ToggleComponent } from './toggle/toggle.component';
 import { TodoComponent } from './todo/todo.component';
 import { ParentToChildComponent } from './parent-to-child/parent-to-child.component';
+import { ChildCompoComponent } from './child-compo/child-compo.component';
+import { ChildToParrentComponent } from './child-to-parrent/child-to-parrent.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ParentToChildComponent } from './parent-to-child/parent-to-child.compon
     FormsComponent,
     ToggleComponent,
     TodoComponent,
-    ParentToChildComponent
+    ParentToChildComponent,
+    ChildCompoComponent,
+    ChildToParrentComponent
    
    
   ],

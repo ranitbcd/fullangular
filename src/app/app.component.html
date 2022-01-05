@@ -12,5 +12,10 @@
 <!-- <app-forms></app-forms> -->
 <!-- <app-toggle></app-toggle>
 <app-todo></app-todo> -->
-<app-parent-to-child [item]="data"></app-parent-to-child>
-<button (click)="updateChild()">UpdateChild</button>
+<!-- <app-parent-to-child [item]="data"></app-parent-to-child>
+<button (click)="updateChild()">UpdateChild</button> -->
+<ul *ngFor="let user of userDetails">
+    <app-child-compo [item]='user'></app-child-compo>
+
+</ul>
+<!-- <app-child-compo></app-child-compo> -->
