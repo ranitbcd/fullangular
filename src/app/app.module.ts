@@ -17,6 +17,7 @@ import { TodoComponent } from './todo/todo.component';
 import { ParentToChildComponent } from './parent-to-child/parent-to-child.component';
 import { ChildCompoComponent } from './child-compo/child-compo.component';
 import { ChildToParrentComponent } from './child-to-parrent/child-to-parrent.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ChildToParrentComponent } from './child-to-parrent/child-to-parrent.com
     TodoComponent,
     ParentToChildComponent,
     ChildCompoComponent,
-    ChildToParrentComponent
+    ChildToParrentComponent,
+    TwoWayBindingComponent
    
    
   ],
