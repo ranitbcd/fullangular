@@ -24,4 +24,9 @@ export class AppComponent {
   updateChild(){
     this.data= Math.floor(Math.random()*10)
   }
+  dataitem='x';
+  updateData(item:string){
+   console.warn(item)
+   this.dataitem=item;
+  }
 }

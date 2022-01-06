@@ -1,6 +1,6 @@
 <app-header></app-header>
 <h1>{{data}}</h1>
-
+<h1>{{dataitem}}</h1>
 <!-- <app-login></app-login> -->
 <!-- <app-styling></app-styling>
 <app-styling1></app-styling1> -->
@@ -14,8 +14,11 @@
 <app-todo></app-todo> -->
 <!-- <app-parent-to-child [item]="data"></app-parent-to-child>
 <button (click)="updateChild()">UpdateChild</button> -->
-<ul *ngFor="let user of userDetails">
+<!-- <ul *ngFor="let user of userDetails">
     <app-child-compo [item]='user'></app-child-compo>
 
-</ul>
+</ul> -->
 <!-- <app-child-compo></app-child-compo> -->
+
+
+<app-child-to-parrent (updateDataEvent)="updateData($event)"></app-child-to-parrent>
