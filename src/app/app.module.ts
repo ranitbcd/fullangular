@@ -18,6 +18,7 @@ import { ParentToChildComponent } from './parent-to-child/parent-to-child.compon
 import { ChildCompoComponent } from './child-compo/child-compo.component';
 import { ChildToParrentComponent } from './child-to-parrent/child-to-parrent.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { TemplateReferenceVariableComponent } from './template-reference-variable/template-reference-variable.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
     ParentToChildComponent,
     ChildCompoComponent,
     ChildToParrentComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    TemplateReferenceVariableComponent
    
    
   ],
